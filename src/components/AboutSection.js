@@ -20,7 +20,8 @@ class AboutSection extends Component {
             facebook,
             twitter,
             linkedin,
-            github
+            github,
+            bitbucket
         } = this.props;
         return (
             <section
@@ -43,6 +44,7 @@ class AboutSection extends Component {
                         twitter={twitter}
                         linkedin={linkedin}
                         github={github}
+                        bitbucket={bitbucket}
                     />
                 </div>
             </section>

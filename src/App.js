@@ -15,7 +15,7 @@ class App extends Component {
             <div>
                 <Navigation />
                 <div className="container-fluid p-0">
-                    <AboutSection fname="Jason" lname="Clark" address="1943 West Street" city="Wrentham" state="MA" zip="02093" phone="(615) 852-5275" email="riceboyler@gmail.com" facebook={social} twitter={social} github={social} linkedin={social} />
+                    <AboutSection fname="Jason" lname="Clark" address="1943 West Street" city="Wrentham" state="MA" zip="02093" phone="(615) 852-5275" email="riceboyler@gmail.com" facebook={social} twitter={social} github={social} linkedin={social} bitbucket={social} />
                     <ExperienceSection />
                     <EducationSection />
                     <SkillsSection />

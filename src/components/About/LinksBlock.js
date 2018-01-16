@@ -4,7 +4,7 @@ import IconLink from './IconLink';
 
 class LinksBlock extends Component {
     render() {
-        const {facebook, twitter, linkedin, github} = this.props;
+        const {facebook, twitter, linkedin, github, bitbucket} = this.props;
 
         return (
             <div>
@@ -32,6 +32,12 @@ class LinksBlock extends Component {
                             linkType="github"
                             url={`https://github.com/${github}`}
                         />
+                    )}
+                    {bitbucket && (
+                        <IconLink
+                            linkType="bitbucket"
+                            url={`https://bitbucket.com/${bitbucket}`}
+                            />
                     )}
                 </ul>
             </div>
