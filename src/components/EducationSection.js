@@ -1,44 +1,49 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+import EducationItem from './Education/EducationItem';
 
 class EducationSection extends Component {
-  render() {
-    return (
-      <div>
-        <section
-          class="resume-section p-3 p-lg-5 d-flex flex-column"
-          id="education"
-        >
-          <div class="my-auto">
-            <h2 class="mb-5">Education</h2>
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">University of Colorado Boulder</h3>
-                <div class="subheading mb-3">Bachelor of Science</div>
-                <div>Computer Science - Web Development Track</div>
-                <p>GPA: 3.23</p>
-              </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary">August 2006 - May 2010</span>
-              </div>
+    render() {
+        return (
+            <div>
+                <section
+                    class="resume-section p-3 p-lg-5 d-flex flex-column"
+                    id="education"
+                >
+                    <div class="my-auto">
+                        <h2 class="mb-5">Education</h2>
+                        <EducationItem
+                            school="Middle Tennessee State University"
+                            location="Murfreesboro, TN"
+                            degree="Seeking Bachelor of Science"
+                            department="Recording Industry Management (Engineering Track)"
+                            description="Did not complete degree as I had to work full-time to support my new family"
+                            start="January 1998"
+                            end="December 1999"
+                        />
+                        <EducationItem
+                            school="Brigham Young University"
+                            location="Provo, UT"
+                            degree="Seeking Bachelor of Science"
+                            department="Computer Science, then Mass Communication"
+                            description="Spent more time figuring out who I was than actually going to classes. That education has been far more valuable to me than what I would have gained in General Education requirements."
+                            start="January 1993"
+                            end="May 1994"
+                        />
+                        <EducationItem
+                            school="Waynesboro High School"
+                            location="Waynesboro, VA"
+                            degree="Governor's Seal Diploma"
+                            department=""
+                            description="Completed enough credits to graduate by Junior Year"
+                            start="1988"
+                            end="1992"
+                        />
+                    </div>
+                </section>
             </div>
-
-            <div class="resume-item d-flex flex-column flex-md-row">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">James Buchanan High School</h3>
-                <div class="subheading mb-3">Technology Magnet Program</div>
-                <p>GPA: 3.56</p>
-              </div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary">August 2002 - May 2006</span>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    );
-  }
+        );
+    }
 }
 
 EducationSection.propTypes = {};
