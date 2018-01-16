@@ -65,14 +65,14 @@ class Navigation extends Component {
                                 Interests
                             </a>
                         </li>
-                        <li class="nav-item">
+                        {/* <li class="nav-item">
                             <a
                                 class="nav-link js-scroll-trigger"
                                 href="#awards"
                             >
                                 Awards
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

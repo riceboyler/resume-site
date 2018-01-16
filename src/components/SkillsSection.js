@@ -34,22 +34,44 @@ class SkillsSection extends Component {
                             <DevIcon type="azure" />
                         </ul>
 
-                        <div class="subheading mb-3">Workflow</div>
-                        <ul class="fa-ul mb-0">
+                        <div className="subheading mb-3">Development Tools</div>
+                        <ul className="fa-ul mb-0">
                             <li>
-                                <i class="fa-li fa fa-check" />
+                                <i className="fa-li fa fa-code" />
+                                IDEs: Visual Studio Code, WebStorm, Visual
+                                Studio, Atom
+                            </li>
+                            <li>
+                                <i className="fa-li fa fa-code" />
+                                Cloud: Microsoft Azure, Amazon Web Services
+                            </li>
+                            <li>
+                                <i className="fa-li fa fa-code" />
+                                Databases: Microsoft SQL, MySQL/MariaDB,
+                                MongoDB, limited Cassandra
+                            </li>
+                            <li>
+                                <i className="fa-li fa fa-code" />
+                                Miscellaneous: Webpack, Jenkins, Bitbucket,
+                                Github
+                            </li>
+                        </ul>
+                        <div className="subheading mb-3">Workflow</div>
+                        <ul className="fa-ul mb-0">
+                            <li>
+                                <i className="fa-li fa fa-check" />
                                 Mobile-First, Responsive Design
                             </li>
                             <li>
-                                <i class="fa-li fa fa-check" />
+                                <i className="fa-li fa fa-check" />
                                 Cross Browser Testing &amp; Debugging
                             </li>
                             <li>
-                                <i class="fa-li fa fa-check" />
+                                <i className="fa-li fa fa-check" />
                                 Cross Functional Teams
                             </li>
                             <li>
-                                <i class="fa-li fa fa-check" />
+                                <i className="fa-li fa fa-check" />
                                 Agile Development &amp; Scrum
                             </li>
                         </ul>
