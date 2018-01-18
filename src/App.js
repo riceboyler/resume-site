@@ -6,8 +6,7 @@ import EducationSection from './components/EducationSection';
 import SkillsSection from './components/SkillsSection';
 import InterestsSection from './components/InterestsSection';
 import AwardsSection from './components/AwardsSection';
-
-const social = 'riceboyler';
+import {userDetails} from './personalData';
 
 class App extends Component {
     render() {
@@ -16,19 +15,19 @@ class App extends Component {
                 <Navigation />
                 <div className="container-fluid p-0">
                     <AboutSection
-                        fname="Jason"
-                        lname="Clark"
-                        address="1943 West Street"
-                        city="Wrentham"
-                        state="MA"
-                        zip="02093"
-                        phone="(615) 852-5275"
-                        email="riceboyler@gmail.com"
-                        facebook={social}
-                        twitter={social}
-                        github={social}
-                        linkedin={social}
-                        bitbucket={social}
+                        fname={userDetails.fname}
+                        lname={userDetails.lname}
+                        address={userDetails.address}
+                        city={userDetails.city}
+                        state={userDetails.state}
+                        zip={userDetails.zip}
+                        phone={userDetails.phone}
+                        email={userDetails.email}
+                        facebook={userDetails.facebook}
+                        twitter={userDetails.twitter}
+                        github={userDetails.github}
+                        linkedin={userDetails.linkedin}
+                        bitbucket={userDetails.bitbucket}
                     />
                     <ExperienceSection />
                     <EducationSection />

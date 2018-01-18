@@ -8,7 +8,7 @@ class LinksBlock extends Component {
 
         return (
             <div>
-                <ul class="list-inline list-social-icons mb-0">
+                <ul className="list-inline list-social-icons mb-0">
                     {facebook && (
                         <IconLink
                             linkType="facebook"
@@ -37,7 +37,7 @@ class LinksBlock extends Component {
                         <IconLink
                             linkType="bitbucket"
                             url={`https://bitbucket.com/${bitbucket}`}
-                            />
+                        />
                     )}
                 </ul>
             </div>

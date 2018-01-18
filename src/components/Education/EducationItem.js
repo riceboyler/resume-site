@@ -3,28 +3,20 @@ import PropTypes from 'prop-types';
 
 class EducationItem extends Component {
     render() {
-        const {
-            school,
-            location,
-            degree,
-            department,
-            description,
-            start,
-            end
-        } = this.props;
+        const {item} = this.props;
         return (
             <div className="resume-item d-flex flex-column flex-md-row mb-5">
                 <div className="resume-content mr-auto">
                     <h3 className="mb-0">
-                        {school} | {location}
+                        {item.school} | {item.location}
                     </h3>
-                    <div className="subheading mb-3">{degree}</div>
-                    <div>{department}</div>
-                    <div>{description}</div>
+                    <div className="subheading mb-3">{item.degree}</div>
+                    <div>{item.department}</div>
+                    <div>{item.description}</div>
                 </div>
                 <div className="resume-date text-md-right">
                     <span className="text-primary">
-                        {start} - {end}
+                        {item.start} - {item.end}
                     </span>
                 </div>
             </div>
@@ -32,6 +24,8 @@ class EducationItem extends Component {
     }
 }
 
-EducationItem.propTypes = {};
+EducationItem.propTypes = {
+    item: PropTypes.object.isRequired
+};
 
 export default EducationItem;

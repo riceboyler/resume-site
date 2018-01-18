@@ -6,7 +6,7 @@ class ProfilePic extends Component {
     render() {
         const {email} = this.props;
         return (
-            <span class="d-none d-lg-block">
+            <span className="d-none d-lg-block">
                 <Gravatar
                     className="img-fluid img-profile rounded-circle mx-auto mb-2"
                     email={email}

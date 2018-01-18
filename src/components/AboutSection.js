@@ -58,7 +58,7 @@ AboutSection.propTypes = {
     address: PropTypes.string,
     city: PropTypes.string,
     state: PropTypes.string,
-    zip: PropTypes.oneOf([PropTypes.string, PropTypes.number])
+    zip: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
 export default AboutSection;
