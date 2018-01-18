@@ -16,6 +16,11 @@ class ExperienceSection extends Component {
                 <div class="my-auto">
                     <h2 class="mb-5">Experience</h2>
                     {experienceItems}
+                    <div className="subheading mb-3">
+                        There's more, but it's so long ago, it's not really
+                        relevant anymore. But hey, if you want it,{' '}
+                        <a href="mailto:riceboyler@gmail.com">ask for it!</a>
+                    </div>
                 </div>
             </section>
         );
