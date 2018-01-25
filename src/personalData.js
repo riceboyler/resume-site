@@ -22,8 +22,8 @@ const experience = [
         description:
             'Responsible for growing Nucleus/World Languages Team from four software engineers to 3 agile teams totalling 16 engineers. Challenges faced and solved: backfilling our tech lead, lost due to attrition; interviewing and hiring new engineers of various levels; management of three separate workstreams (Reader, WebRTC-based AV Board and Discourse based Discussion Forum activities) with associated backlog management, estimations and projections. Assisted with architectural design and code reviews of React components and applications. Built proofs of concept for my team to take and enhance to full production.',
         start: 'August 2016',
-        end: 'Current',
-        reasonForLeaving: '',
+        end: 'January 2018',
+        reasonForLeaving: 'Change in leadership led to my career path going in a different direction',
         technologiesUsed: []
     },
     {
