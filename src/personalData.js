@@ -128,6 +128,6 @@ const education = [
     }
 ];
 const interestText =
-    "I'm a gearhead through and through. I love cars, boost, turbos, racing, the whole shebang. I'm a father of 3 kids and the husband of a wife who deserves way better. I'm a member of The Church of Jesus Christ of Latter-Day Saints and currently serve in the Young Men's Presidency. I'm a huge fan of the Boston Red Sox, the Nashville Predators and the New England Patriots. As a former club dj, I still enjoy Electronic Dance Music, but also love the Blues, Zac Brown Band and nearly everything in between.";
+    "I'm a gearhead through and through. I love cars, boost, turbos, racing, the whole shebang. I'm a father of 3 kids and the husband of a wife who deserves way better. I'm a member of The Church of Jesus Christ of Latter-Day Saints and currently serve as an Executive Secretary. I'm a huge fan of the Boston Red Sox, the Nashville Predators and the New England Patriots. As a former club dj, I still enjoy Electronic Dance Music, but also love the Blues, Zac Brown Band and nearly everything in between.";
 
 export {userDetails, experience, education, interestText};

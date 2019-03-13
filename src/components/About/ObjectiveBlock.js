@@ -3,13 +3,12 @@ import PropTypes from 'prop-types';
 
 class ObjectiveBlock extends Component {
     render() {
-        const {objectiveText} = this.props;
-        return <p className="mb-5">{objectiveText}</p>;
+        return <p className="mb-5">{this.props.children}</p>;
     }
 }
 
 ObjectiveBlock.propTypes = {
-    objectiveText: PropTypes.string.isRequired
+    children: PropTypes.node.isRequired
 };
 
 export default ObjectiveBlock;
