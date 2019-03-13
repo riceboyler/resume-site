@@ -16,6 +16,17 @@ const userDetails = {
 
 const experience = [
     {
+        title: 'Lead Front-End Engineer',
+        company: 'PatientPing',
+        location: 'Boston, MA',
+        description:
+            'Responsible for all front-end code for Medical Technology Startup. Upgraded React, Redux, Webpack and other libraries to be up to date; created shared component library and component generator based on Neutrino. Functioned as team lead for front-end engineers, responsible for establishing best practices, design documents for larger features and mentoring other engineers. Added front-end unit testing using Jest and React Testing Library.',
+        start: 'February 2018',
+        end: 'Current',
+        reasonForLeaving: 'Moving to Utah',
+        technologiesUsed: []
+    },
+    {
         title: 'Director of Web Services (Freelance)',
         company: 'Mobile Electronics Competition Association (MECA)',
         location: 'Goodlettsville, TN',
@@ -34,7 +45,8 @@ const experience = [
             'Responsible for growing Nucleus/World Languages Team from four software engineers to 3 agile teams totalling 16 engineers. Challenges faced and solved: backfilling our tech lead, lost due to attrition; interviewing and hiring new engineers of various levels; management of three separate workstreams (Reader, WebRTC-based AV Board and Discourse based Discussion Forum activities) with associated backlog management, estimations and projections. Assisted with architectural design and code reviews of React components and applications. Built proofs of concept for my team to take and enhance to full production.',
         start: 'August 2016',
         end: 'January 2018',
-        reasonForLeaving: 'Change in leadership led to my career path going in a different direction',
+        reasonForLeaving:
+            'Change in leadership led to my career path going in a different direction',
         technologiesUsed: []
     },
     {
