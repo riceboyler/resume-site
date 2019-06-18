@@ -12,6 +12,12 @@ class ExperienceItem extends Component {
                         {item.company} | {item.location}
                     </div>
                     <p>{item.description}</p>
+                    {item.reasonForLeaving && (
+                        <p>
+                            <strong>Reason For Leaving:</strong>{' '}
+                            {item.reasonForLeaving}
+                        </p>
+                    )}
                 </div>
                 <div className="resume-date text-md-right">
                     <span class="text-primary">

@@ -39,11 +39,21 @@ class AboutSection extends Component {
                         email={email}
                     />
                     <ObjectiveBlock>
-
-                    With over 20 years working on the web, I bring experience to building complex web software, where I love to work on UI/UX and front-end logic of sites. My objective is to be working with the best front-end frameworks in JavaScript, HTML5 and CSS3 to build killer web applications. Right now, I love React, Node and Emotion (for Styled Components).
-                    <br />
-                    <br />
-                    So, why am I actively looking for a new position in 2019? In 2018, I was blessed to find my biological family of 9 <b>FULL</b> siblings, both parents and one set of grandparents via AncestryDNA. In order to get to know all of them better, our family will be moving to Utah to be closer to them. So, I'm looking for either a remote management or lead/principal developer role, or something in Southern Utah (i.e. Cedar City, St. George, etc.)
+                        With over 20 years working on the web, I bring
+                        experience to building complex web software, where I
+                        love to work on UI/UX and front-end logic of sites. My
+                        objective is to be working with the best front-end
+                        frameworks in JavaScript, HTML5 and CSS3 to build killer
+                        web applications. Right now, I love React, Node and
+                        Emotion (for Styled Components). I've also recently
+                        fallen somewhat in love with TypeScript, as I see the
+                        power of having a well defined contract.
+                        <br />
+                        <br />I recently relocated to Cedar City, UT to be
+                        closer to my biological family (who I found in June
+                        2018). I'm looking for something pretty much 100% remote
+                        or within 1 hour of Cedar City (which means, basically,
+                        St. George, UT).
                     </ObjectiveBlock>
                     <LinksBlock
                         facebook={facebook}

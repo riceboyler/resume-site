@@ -1,11 +1,11 @@
 const userDetails = {
     fname: 'Jason',
     lname: 'Clark',
-    address: '1943 West Street',
-    city: 'Wrentham',
-    state: 'MA',
-    zip: '02093',
-    phone: '6158525275',
+    address: '4554 Maple Ln',
+    city: 'Cedar City',
+    state: 'UT',
+    zip: '84721',
+    phone: '615.852.5275',
     email: 'riceboyler@gmail.com',
     facebook: 'riceboyler',
     twitter: 'riceboyler',
@@ -17,13 +17,23 @@ const userDetails = {
 const experience = [
     {
         title: 'Lead Front-End Engineer',
+        company: 'CollegeVine',
+        location: 'Cambridge, MA (100% remote capable)',
+        description:
+            'Assumed responsibility for all front-end code for Education Finance/Guidance Startup. Stack included React, PureScript, Haskell and Python. Migrated shared component library from JavaScript to TypeScript to enforce consistent API. Created shared compnents to be be used in A/B tests for Catalyst Direct team, then moved to owning Marketing site and assets, preparing to move to a mobile-first architecture powered by Gatsby and NetlifyCMS',
+        start: 'April 2019',
+        end: 'June 2019',
+        reasonForLeaving: 'Massive company reorganization resulted in layoff'
+    },
+    {
+        title: 'Lead Front-End Engineer',
         company: 'PatientPing',
         location: 'Boston, MA',
         description:
             'Responsible for all front-end code for Medical Technology Startup. Upgraded React, Redux, Webpack and other libraries to be up to date; created shared component library and component generator based on Neutrino. Functioned as team lead for front-end engineers, responsible for establishing best practices, design documents for larger features and mentoring other engineers. Added front-end unit testing using Jest and React Testing Library.',
         start: 'February 2018',
-        end: 'Current',
-        reasonForLeaving: 'Moving to Utah',
+        end: 'April 2019',
+        reasonForLeaving: 'Moved to CollegeVine to allow for 100% remote work',
         technologiesUsed: []
     },
     {
