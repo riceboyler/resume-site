@@ -1,11 +1,11 @@
 const userDetails = {
     fname: 'Jason',
     lname: 'Clark',
-    address: '4554 Maple Ln',
-    city: 'Cedar City',
+    address: '355 W 200 S Unit 118',
+    city: 'Washington',
     state: 'UT',
-    zip: '84721',
-    phone: '615.852.5275',
+    zip: '84780',
+    phone: '435.383.2773',
     email: 'riceboyler@gmail.com',
     facebook: 'riceboyler',
     twitter: 'riceboyler',
@@ -16,6 +16,49 @@ const userDetails = {
 
 const experience = [
     {
+        title: 'Senior Software Engineer',
+        company: 'TCN',
+        location: 'St. George, UT',
+        description:
+            'Created coherent Design System utilizing Figma for design mockups and demonstration of color schemes/typography. Implemented Design System via Material-UI theme which constrains available palette and typographical schemes. Mentored multiple junior engineers from the basics of JavaScript to assisting with complex React components. Started a series of workshops for sharing knowledge during Covid-19 restrictions. Implemented Cypress testing suite for E2E testing as we have no dedicated QA resources.',
+        start: 'July 2019',
+        end: 'Current',
+        reasonForLeaving: '',
+        technologiesUsed: [
+            'React',
+            'TypeScript',
+            'Webpack',
+            'Figma',
+            'Cypress',
+            'MDX'
+        ]
+    },
+    {
+        title: 'Director of Web Services (Freelance)',
+        company: 'Mobile Electronics Competition Association (MECA)',
+        location: 'Goodlettsville, TN',
+        description:
+            'Responsible for all web properties for MECA, including crankitup.net (previously), mecacaraudio.com and mecaevents.com. Migrated mecacaraudio.com through various iterations, now running on WordPress CMS with a custom theme. Built mecaevents.com initially in PHP, migrated through ASP.NET/C# WebAPI, Node/Express 4 against a MSSQL database (on AWS) with a React 16 web application. Migrated all properties from standard VPS based hosting to Azure and AWS for scalability. As of 6/2020, migrated from Express API with a MSSQL backend to GraphQL using Hasura and PostgreSQL to allow the site to be serverless. Currently migrating WordPress based main site to GatsbyJS due to security issues with WordPress.',
+        start: 'January 2000',
+        end: 'Current',
+        reasonForLeaving: '',
+        technologiesUsed: [
+            'ASP.NET',
+            'C#',
+            'MSSQL',
+            'DotNetNuke',
+            'DurandalJS',
+            'NodeJS',
+            'Express',
+            'Hasura',
+            'PostgreSQL',
+            'React',
+            'WordPress',
+            'GatsbyJS',
+            'NetlifyCMS'
+        ]
+    },
+    {
         title: 'Lead Front-End Engineer',
         company: 'CollegeVine',
         location: 'Cambridge, MA (100% remote capable)',
@@ -23,7 +66,14 @@ const experience = [
             'Assumed responsibility for all front-end code for Education Finance/Guidance Startup. Stack included React, PureScript, Haskell and Python. Migrated shared component library from JavaScript to TypeScript to enforce consistent API. Created shared compnents to be be used in A/B tests for Catalyst Direct team, then moved to owning Marketing site and assets, preparing to move to a mobile-first architecture powered by Gatsby and NetlifyCMS',
         start: 'April 2019',
         end: 'June 2019',
-        reasonForLeaving: 'Massive company reorganization resulted in layoff'
+        reasonForLeaving: 'Massive company reorganization resulted in layoff',
+        technologiesUsed: [
+            'React',
+            'TypeScript',
+            'PureScript',
+            'GatsbyJS',
+            'NetlifyCMS'
+        ]
     },
     {
         title: 'Lead Front-End Engineer',
@@ -34,18 +84,14 @@ const experience = [
         start: 'February 2018',
         end: 'April 2019',
         reasonForLeaving: 'Moved to CollegeVine to allow for 100% remote work',
-        technologiesUsed: []
-    },
-    {
-        title: 'Director of Web Services (Freelance)',
-        company: 'Mobile Electronics Competition Association (MECA)',
-        location: 'Goodlettsville, TN',
-        description:
-            'Responsible for all web properties for MECA, including crankitup.net (previously), mecacaraudio.com and mecaevents.com. Migrated mecacaraudio.com through various iterations, now running on WordPress CMS with a custom theme. Built mecaevents.com initially in PHP, migrated through ASP.NET/C# WebAPI, currently running on Node/Express 4 against a MSSQL database (on AWS) with a React 16 web application. Migrated all properties from standard VPS based hosting to Azure and AWS for scalability.',
-        start: 'January 2000',
-        end: 'Current',
-        reasonForLeaving: '',
-        technologiesUsed: []
+        technologiesUsed: [
+            'React',
+            'Redux',
+            'Webpack',
+            'NodeJS',
+            'Bit',
+            'Styled Components/Emotion'
+        ]
     },
     {
         title: 'Engineering Manager',

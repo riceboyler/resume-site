@@ -49,11 +49,11 @@ class AboutSection extends Component {
                         fallen somewhat in love with TypeScript, as I see the
                         power of having a well defined contract.
                         <br />
-                        <br />I recently relocated to Cedar City, UT to be
-                        closer to my biological family (who I found in June
-                        2018). I'm looking for something pretty much 100% remote
-                        or within 1 hour of Cedar City (which means, basically,
-                        St. George, UT).
+                        <br />I relocated from the East Coast to Utah in 2019
+                        after having found my biological family after 43 years.
+                        I'm looking for new opportunities in Southern Utah, or
+                        primarily remote opportunities wherever. I'd love to
+                        help your team grow and develop!
                     </ObjectiveBlock>
                     <LinksBlock
                         facebook={facebook}

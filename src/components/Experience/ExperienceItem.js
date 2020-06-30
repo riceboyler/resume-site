@@ -23,6 +23,17 @@ class ExperienceItem extends Component {
                     <span class="text-primary">
                         {item.start} - {item.end}
                     </span>
+                    {item.technologiesUsed && item.technologiesUsed.length > 0 && (
+                        <React.Fragment>
+                            <hr />
+                            <h6>Technologies Used</h6>
+                            <ul className="list-unstyled">
+                                {item.technologiesUsed.map((tech) => (
+                                    <li>{tech}</li>
+                                ))}
+                            </ul>
+                        </React.Fragment>
+                    )}
                 </div>
             </div>
         );
