@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import NameBlock from './About/NameBlock';
 import AddressBlock from './About/AddressBlock';
 import ObjectiveBlock from './About/ObjectiveBlock';
